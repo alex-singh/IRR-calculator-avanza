@@ -2,6 +2,8 @@
 
 This an internal rate of return (IRR) calculator for instruments traded on Avanza using a .csv file that you can download from your account on Avanza. 
 
+I am not affiliated with Avanza in any way.
+
 ## Getting Started
 
 1. You first have to download your transactions in a .csv file from your Avanza account. Replace the transactions.csv file with your downloaded transactions
