@@ -1,0 +1,13 @@
+positions:
+  - name: Castellum # name can be anything. It's just a label
+    regex: (?i)castel # regex that uniquely identifies a position in the column "Värdepapper/beskrivning" in the transactions.csv
+    quantity: 300 # quantity of instruments that you currently hold
+    price: 187.7 # the price of the instrument
+  - name: SEB
+    regex: (?i)seb
+    quantity: 800
+    price: 84.64 
+  # ICA Gruppen is a closed position. No need to provide a price. Just set quantity to 0
+  - name: ICA Gruppen
+    regex: (?i)(ica)
+    quantity: 0
